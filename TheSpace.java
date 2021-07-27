@@ -3,7 +3,12 @@ import java.util.*;
 import greenfoot.*;
 
 /**
+ * Propiedade de la clase TheSpace
  * 
+ * @author: Maria Marta Ramirez Gil
+ * Carne 21342 Universidad del Valle de Guatemala
+ * Proyecto 1 Naksatra Game
+ * @version:  0.1.1 - 26 de Julio 2021 
  */
 public class TheSpace extends World
 {
@@ -22,8 +27,7 @@ public class TheSpace extends World
     }
 
     /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
+     * Posicion de los actores sobre The Space
      */
     private void prepare()
     {

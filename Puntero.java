@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Puntero here.
+ * Propiedade de la clase TheSpace
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author: Maria Marta Ramirez Gil
+ * Carne 21342 Universidad del Valle de Guatemala
+ * Proyecto 1 Naksatra Game
+ * @version:  0.1.1 - 26 de Julio 2021 
  */
 public class Puntero extends Actor
 {
-    /**
-     * Moverse con las flechas
-     */
+    /*Realizar instancias movimientoFlechas(), move(), tocarEstrella()*/
     public void act() 
     {
         movimientoFlechas();
@@ -18,6 +18,7 @@ public class Puntero extends Actor
         tocarEstrella();
     }    
     
+	/*Definir instancia movimientoFlechas() que se encargara del giro de Puntero con las flechas derecha y izquierda*/
     public void movimientoFlechas()
     {
         if (Greenfoot.isKeyDown("left"))
@@ -31,6 +32,7 @@ public class Puntero extends Actor
         }
     }
     
+	/*Definir instancia tocarEstrella() para cuando Puntero toque a EstrellaSi elimine a EstrellaSi*/
     public void tocarEstrella()
     {
         Actor estrella;

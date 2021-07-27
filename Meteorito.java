@@ -1,21 +1,23 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Meteorito here.
+ * Propiedade de la clase TheSpace
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author: Maria Marta Ramirez Gil
+ * Carne 21342 Universidad del Valle de Guatemala
+ * Proyecto 1 Naksatra Game
+ * @version:  0.1.1 - 26 de Julio 2021 
  */
 public class Meteorito extends Actor
 {
-    /**
-     * Moverse de manera aleatoria*/
+    /* La clase metorito realizara las acciones de moverse por TheSpace y tocar a Puntero*/
     public void act() 
     {
         moverse();
         tocar();
     }    
 
+	/*Definir instancia moverse() para hacer que Meteorito se mueva de manera aleatoria por TheSpace*/
     public void moverse()
     {
         move(2);
@@ -35,6 +37,7 @@ public class Meteorito extends Actor
         }
     }
     
+	//*Definir instacia tocar() para cuando Meteorito toque a Puntero elimine a Puntero*//
     public void tocar()
     {
         Actor puntero;

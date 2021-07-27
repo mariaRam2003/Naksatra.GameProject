@@ -1,16 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Estrellano here.
+ * Propiedade de la clase TheSpace
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author: Maria Marta Ramirez Gil
+ * Carne 21342 Universidad del Valle de Guatemala
+ * Proyecto 1 Naksatra Game
+ * @version:  0.1.1 - 26 de Julio 2021 
  */
 public class Estrellano extends Actor
 {
     /**
-     * Act - do whatever the Estrellano wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * La clase Estrellano no necesita de ninguna accion por el momento
      */
     public void act() 
     {
