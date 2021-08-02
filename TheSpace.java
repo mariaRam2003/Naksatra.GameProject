@@ -8,11 +8,11 @@ import greenfoot.*;
  * @author: Maria Marta Ramirez Gil
  * Carne 21342 Universidad del Valle de Guatemala
  * Proyecto 1 Naksatra Game
- * @version:  0.1.1 - 26 de Julio 2021 
+ * @version:  0.1.2 - 26 de Julio 2021 
  */
 public class TheSpace extends World
 {
-
+    Counter cont = new Counter();
     /**
      * Color del fondo
      */
@@ -22,12 +22,17 @@ public class TheSpace extends World
         super(600, 400, 1);
         getBackground().setColor(Color.BLACK);
         getBackground().fill();
-
         prepare();
     }
 
+    public Counter getCounter(){
+        return cont;
+    }
+    
+    
     /**
-     * Posicion de los actores sobre The Space
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
      */
     private void prepare()
     {
@@ -117,5 +122,6 @@ public class TheSpace extends World
         star6.setLocation(557,258);
         EstrellaSi estrellaSi7 = new EstrellaSi();
         addObject(estrellaSi7,557,258);
+        addObject(cont, 300, 50);
     }
 }
